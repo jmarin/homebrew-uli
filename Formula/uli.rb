@@ -6,7 +6,7 @@ class Uli < Formula
   depends_on "rust" => :build
 
   def install 
-    system "cargo", "install", "--path .", "--root", prefix
+    system "cargo", "install", "--path", ".", "--root", prefix
   end
 
   test do 

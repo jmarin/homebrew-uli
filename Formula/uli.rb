@@ -1,7 +1,7 @@
 class Uli < Formula
   desc "Universal Loan Identifier (ULI) validation and check digit generation"
   url "https://github.com/jmarin/uli/archive/v0.2.0.tar.gz"
-  sha256 "51bd372617fdc159639181b508e04fd7aaea244e"
+  sha256 "b70f023fc87daf0cdf1c2c9b0618b43bc63b7b9d0d7d3236ec0816f1c935fbfb"
   head "https://github.com/jmarin/uli.git"
   depends_on "rust" => :build
 
